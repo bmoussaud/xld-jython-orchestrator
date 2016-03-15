@@ -82,7 +82,7 @@ The parallel-by-container example is the following:
 The following variables are injected in the Jython scripts:
 
 - logger  : an org.slf4j.Logger
-- spec : a DeltaSpecification 
+- specification : a DeltaSpecification 
 - deltas : shortcut to spec.getDeltas()
 - planLabel : a String containing a predefined planLabel
 - orchestration : an OrchestrationWrapper. use orchestration.setOrchestration() to return the orchestration
